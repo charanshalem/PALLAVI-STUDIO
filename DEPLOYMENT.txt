@@ -1,0 +1,7 @@
+This repository serves the production build of Sri Pallavi Studio on Vercel.
+
+The complete editable React/Vite source is included in pallavi-studio-vercel.zip. Extract it, configure VITE_SUPABASE_URL and VITE_SUPABASE_ANON_KEY, then use npm install and npm run build to rebuild.
+
+The root HTML, CSS, JavaScript and image files are the prebuilt deployment. Admin passwords and service-role keys are not stored in this repository. Database policies require an approved admin email and server-managed studio_admin=true metadata.
+
+Email OTP recovery requires custom SMTP and the supplied recovery email template to be configured in Supabase. Screenshot notices are copying deterrents, not screenshot prevention.
